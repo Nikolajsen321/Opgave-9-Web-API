@@ -85,12 +85,8 @@ namespace Web_Api_Klient.Controllers
             //else
             //{
             // Hvis indholdet ikke er komprimeret, behandl det som almindelig tekst
-
-
-
             //var jsonData = JsonDocument.Parse(await responseMessage.Content.ReadAsStringAsync());
             //var quote = jsonData.RootElement.GetProperty("value").GetString();
-
             return View("Quote", quote);
         //}
     }
