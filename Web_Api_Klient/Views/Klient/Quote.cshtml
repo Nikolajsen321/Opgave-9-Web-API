@@ -1,0 +1,12 @@
+﻿@model string
+
+@using (Html.BeginForm("GetQuote", "Klient", FormMethod.Get))
+{
+    <div>
+        <button type="submit">Get Quote</button>
+   
+            <p>@Model</p> <!-- Viser citatet -->
+        
+    
+    </div>
+}

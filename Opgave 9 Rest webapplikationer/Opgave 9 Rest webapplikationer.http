@@ -1,0 +1,6 @@
+@Opgave_9_Rest_webapplikationer_HostAddress = http://localhost:7288
+
+GET {{Opgave_9_Rest_webapplikationer_HostAddress}}/ValuesController/
+Accept: application/json
+
+###
